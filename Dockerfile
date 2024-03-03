@@ -14,4 +14,4 @@ ADD ./ /root/app
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["python", "/root/app/main.py"]
